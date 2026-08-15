@@ -1,10 +1,10 @@
 # TeensAI Monorepo
 
-青少儿 AI 成长教练小程序 Demo 的统一代码仓库。当前阶段只包含经过需求拆解的工程目录、仓库规范与实现指南，尚未初始化具体应用代码或安装依赖。
+青少儿 AI 成长教练小程序 Demo 的统一代码仓库。当前已启动 `frontend-prototype` 移动 H5，其他应用保留经过需求拆解的工程目录、仓库规范与实现指南。
 
 ## 核心工作区
 
-- frontend-prototype：第 1、2 周甲方原型、样张、评审材料和范围冻结记录。
+- frontend-prototype：第 1、2 周甲方交互原型，当前包含双身份登录、家长端四 Tab、多状态演示和 GitHub Pages 部署配置。
 - miniapp-frontend：生产微信小程序，包含家长端、孩子端和公共监护流程。
 - miniapp-business-backend：小程序业务 API、管理员 API、管理员 Web 和后台任务。
 - agent-server-backend：DeepSeek Harness、专家智能体、技能、工作流、RAG、安全与评测。
@@ -35,7 +35,16 @@
 - pnpm typecheck：运行所有提供 typecheck 脚本的包。
 - pnpm check：依次执行 lint、typecheck 和 test。
 
-当前未安装外部依赖；pnpm-lock.yaml 只记录初始空工作区基线，后续依赖变更必须同步提交锁文件。
+`pnpm-lock.yaml` 已锁定前端原型依赖；后续依赖变更必须同步提交锁文件。
+
+## 前端原型
+
+```bash
+pnpm install
+pnpm --filter @teens-ai/frontend-prototype dev
+```
+
+演示验证码为 `123456`。产品范围、状态模型与部署说明见 [frontend-prototype/README.md](frontend-prototype/README.md)。
 
 ## 初始开发顺序
 
