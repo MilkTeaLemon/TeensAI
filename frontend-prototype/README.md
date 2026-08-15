@@ -25,3 +25,5 @@ pnpm --filter @teens-ai/frontend-prototype build
 ```
 
 推送 `main` 分支后，GitHub Actions 会构建并部署 `frontend-prototype/dist` 到 GitHub Pages。仓库需在 Settings → Pages 中选择 **GitHub Actions** 作为发布源。
+
+公开演示地址：<https://milktealemon.github.io/TeensAI/>
