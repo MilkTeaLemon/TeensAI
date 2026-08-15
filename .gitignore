@@ -1,0 +1,75 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# JavaScript / TypeScript
+node_modules/
+.pnpm-store/
+dist/
+build/
+coverage/
+.turbo/
+.nx/
+*.tsbuildinfo
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# WeChat mini program
+miniprogram_npm/
+project.private.config.json
+
+# Runtime data and generated artifacts
+**/logs/*
+!**/logs/.gitkeep
+**/tmp/*
+!**/tmp/.gitkeep
+**/temp/*
+!**/temp/.gitkeep
+*.log
+*.pid
+*.sqlite
+*.sqlite3
+**/exports/*
+!**/exports/.gitkeep
+**/uploads/*
+!**/uploads/.gitkeep
+**/generated/*
+!**/generated/.gitkeep
+
+# Local infrastructure state
+.docker/
+postgres-data/
+pgvector-data/
+object-storage-data/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx

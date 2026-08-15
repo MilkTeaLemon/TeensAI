@@ -1,0 +1,10 @@
+packages:
+  - "miniapp-frontend"
+  - "miniapp-business-backend/apps/*"
+  - "miniapp-business-backend/domain/*"
+  - "miniapp-business-backend/shared/*"
+  - "agent-server-backend/apps/*"
+  - "agent-server-backend/agents/*"
+  - "agent-server-backend/skills/*"
+  - "agent-server-backend/integrations/*"
+  - "contracts/*"
