@@ -1,4 +1,5 @@
 packages:
+  - "frontend-prototype"
   - "miniapp-frontend"
   - "miniapp-business-backend/apps/*"
   - "miniapp-business-backend/domain/*"
